@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg,  #f6d365 0%,  #FFE6C4 100%);
+  color: black;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.App {
+  width: 450px;
+  background-image: linear-gradient(120deg, #E81783 0%, rgb(182, 100, 141) 100%);
+  margin-top: 1rem;
+  padding: 2rem;
+  
+}
+.todo-task {
+  width: 100%;
+}
+
+
+header {
+  font-size: 1.2rem;
+  text-align: center;
+}
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  width: 100%;
+  margin: .5rem 0;
+}
+
+form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  width: 100%;
+  margin: .5rem 0;
+  color: #fff;
+  background: #95007F;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+form button:active {
+  transform: scale(0.97); 
+}
+
+.todo-container {
+  width: 100%;
+  
+  font-size: 2rem;
+  border: none;
+  background-image: linear-gradient(120deg, #D83086 0%, rgb(182, 100, 141) 100%);
+  width: 100%;
+  margin: .5rem 0;
+}
+.todo-list {
+  list-style: none;
+}
+.todo {
+  margin-top: 1rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .5s ease;
+  font-size: 1rem;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+.todo-time {
+  font-size: 0.8rem;
+  color: #333;
+
+}
+.no-tasks {
+  text-align: center;
+}
+.todo-button-open, .todo-button-close {
+  background: #95007F;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+.todo-button-close {
+  background: #FE0000;
+}
+.myButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.noInput {
+  background-color: #c94f8e;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+  min-width: 70%;
+}
+.trash-btn {
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.todo-base {
+  background-color:#95007F;
+}
+.fa-xmark{
+  pointer-events: none;
+  color: red;
+  font-size: 1.5rem;
+  background-color: white;
+}
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.completed-margin{
+  margin-left: 0.5rem;
+}
+
+
